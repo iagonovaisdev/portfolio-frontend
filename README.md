@@ -1,0 +1,2 @@
+# portfolio
+Personal web portfolio project, made with React, NodeJS and MongoDb.

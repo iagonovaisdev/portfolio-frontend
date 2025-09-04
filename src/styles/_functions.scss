@@ -1,0 +1,6 @@
+@use "sass:string";
+@function color($color,$opacity:1) {
+    $get_color: var($color);
+    $new_color: string.slice($get_color, 5, (string.length($get_color) - 1));
+    @return rgba($new_color,$opacity);
+}

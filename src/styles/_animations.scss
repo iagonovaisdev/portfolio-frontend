@@ -1,0 +1,47 @@
+@keyframes animation-blink {
+    0% {
+    opacity: 0;
+    }
+    
+    50% {
+    opacity: 0;
+    }
+    
+    51% {
+    opacity: 1;
+    }
+    
+    100% {
+    opacity: 1;
+    }
+};
+
+@keyframes scroll-down {
+    
+    0% {
+    transform: translateY(-130%);
+    opacity: 1;
+    }
+    
+    100% {
+    transform: translateY(130%);
+    opacity: 0;
+    }
+
+};    
+
+@keyframes spinning {
+    
+    0% {
+    transform: rotate(0);
+    }
+    
+    100% {
+    transform: rotate(360deg);
+    }
+
+};
+
+.animation-spinning {
+animation: spinning 2s linear infinite;
+}

@@ -1,0 +1,201 @@
+{
+    "code": "pt_br",
+    "landing" : {
+        "choose_language": "Por favor selecione a sua linguagem:",
+        "cookies": "Este site usa cookies para proporcionar uma melhor experiência.",
+        "accept": "Aceitar",
+        "logo": {
+            "title": "Iago Novais",
+            "description": "Programador Full Stack"
+        },
+        "seo": {
+            "title": "Iago Novais",
+            "description": "Conheça na prática o meu trabalho de forma interativa."
+        },
+        "menu": [
+            {"title": "Sobre","id":"about"},
+            {"title": "Trajetória","id":"roadmap"},
+            {"title": "Experiência","id":"experience"},
+            {"title": "Na prática","id":"practice"},
+            {"title": "Projetos","id":"projects"},
+            {"title": "Contato","id":"contact"}
+        ],
+        "theme": "Tema",
+        "language": "Linguagem",
+        "changeLanguage": "Mudar linguagem",
+        "changeTheme": "Mudar tema",
+        "loading": "Carregando",
+        "home": {
+            "title":"Olá, eu sou o Iago Novais ✋",
+            "role":"Desenvolvedor Full-Stack",
+            "subtitle":"com mais de 12 anos de experiência no mercado tecnológico.",
+            "description":"Especialista em liderança de projetos e soluções, estou constantemente em busca de novos desafios para impulsionar resultados."
+        },
+        "me": {
+            "info":[
+                {"slug":"age","name":"Idade","text":""},
+                {"slug":"nationality","name":"Nacionalidade","text":""},
+                {"slug":"graduation","name":"Graduação","text":""},
+                {"slug":"portuguese","name":"Português","text":""},
+                {"slug":"english","name":"Ingles","text":""}
+            ],
+            "contact":[
+                {"title":"E-mail","icon":"lni lni-envelope","text":"contato@iagonovais.dev"},
+                {"title":"Phone","icon":"lni lni-phone","text":"77 9.9846-5282"}
+            ],
+            "social":[
+                {"title":"Linkedin","icon":"lni lni-linkedin","link":"https://linkedin.com/iagonovaisdev"},
+                {"title":"Github","icon":"lni lni-github","link":"https://github.com/iagonovaisdev"},
+                {"title":"Youtube","icon":"lni lni-youtube","link":"https://youtube.com/iagonovaisdev"},
+                {"title":"Instagram","icon":"lni lni-instagram","link":"https://instagram.com/iagonovaisdev"}
+            ]
+        },
+        "roadmap": {
+            "title":"Trajetória",
+            "subtitle":"Trajetória",
+            "description":"Conheça mais sobre a minha jornada área de desenvolvimento."
+        },
+        "about": {
+            "title":"Sobre mim",
+            "subtitle":"Sobre mim",
+            "description":"Conheça mais sobre mim e minhas competências no campo do desenvolvimento."
+        },
+        "experience": {
+            "title":"Experiência",
+            "subtitle":"Experiência",
+            "description":"Conheça um pouco das minhas experiências e certificações.",
+            "experience":"Experiência",
+            "certificate":"Certificação",
+            "tech":"Tecnologias"
+        },
+        "numbers": [
+            {
+                "slug":"experience",
+                "title":"de experiência",
+                "subtitle":"Mais de ",
+                "description":"anos",
+                "icon":"lni lni-hourglass"
+            },
+            {
+                "slug":"clients",
+                "title":"Clientes atendidos",
+                "subtitle":"Mais de ",
+                "description":"",
+                "icon":"lni lni-user"
+            },
+            {
+                "slug":"projects",
+                "title":"Projetos entregues",
+                "subtitle":"Mais de",
+                "description":"",
+                "icon":"lni lni-rocket"
+            }
+        ],
+        "practice": {
+            "title":"Na prática",
+            "subtitle":"Na prática",
+            "description":"Descubra minhas habilidades de forma real em linguagem de código.",
+            "text": "Este projeto foi concebido como uma demonstração prática do desenvolvimento de implementações de código no mundo real. Não há maneira melhor de conhecer meu trabalho do que observando eu programar ao vivo e documentado em vídeos.",
+            "highlights": [
+                "Elaboração do projeto (Briefing, tasks e conteúdo).",
+                "Elaboração do UX/UI design.",
+                "Transformando projeto visual em aplicação ReactJS.",
+                "Modelagem de banco de dados.",
+                "Construção de API REST para autenticação de usuário e atualização de conteúdo.",
+                "Criação de dashboard CMS (Content Managemente System) para gerenciamento do portfólio.",
+                "Gerenciamento avançado de formulários com uploads e campos repetidores dinâmicos (com validação e mascara).",
+                "Contexto de aplicação (Para gerenciamento de temas e traduções)."
+            ],
+            "video":"//youtube.com/embed/xxxx"
+        },
+        "more": {
+            "title":"Quer ver mais?",
+            "subtitle":"Mais?",
+            "description":"Acompanhe um pouco mais do meu trabalho na prática nas redes vizinhas.",
+            "list": [
+                {
+                    "icon":"lni lni-github",
+                    "title":"Github",
+                    "data":"Projetos e repositórios",
+                    "action":"Acessar",
+                    "link": "https://github.com/iagonovaisdev"
+                },
+                {
+                    "icon":"lni lni-youtube",
+                    "title":"Youtube",
+                    "data":"Programação ao vivo",
+                    "action":"Acessar",
+                    "link": "https://youtube.com/iagonovaisdev"
+                },
+                {
+                    "icon":"lni lni-instagram",
+                    "title":"Instagram",
+                    "data":"Rotina e interação",
+                    "action":"Acessar",
+                    "link": "https://instagram.com/iagonovaisdev"
+                }
+            ]
+        },
+        "projects": {
+            "title":"Projetos",
+            "subtitle":"Projetos",
+            "description":"Conheça alguns dos meus trabalhos.",
+            "all": "Tudo",
+            "see": "Ver projeto",
+            "code_open": "Código demonstrável",
+            "code_closed": "Código privado",
+            "check_code": "Ver código",
+            "check_online": "Ver ao vivo"
+        },
+        "contact": {
+            "title":"Contato",
+            "subtitle":"Contato",
+            "description":"Vamos desenvolver algo juntos? Deixe uma mensagem.",
+            "fields":{
+                "name":"Nome",
+                "email":"E-mail",
+                "phone":"Telefone",
+                "subject":"Assunto",
+                "message":"Mensagem",
+                "send":"Enviar"
+            }
+        },
+        "rdp": {
+            "title":"© Copyright Iago Novais - Todos os direitos reservados"
+        }
+    },
+    "panel": {
+        "menu": [
+            {"title": "Início","path":"/panel"},
+            {"title": "Informações","path":"/panel/profile","list":[
+                {"title":"SEO","path":"/panel/seo"},
+                {"title":"Introdução","path":"/panel/intro"},
+                {"title":"Perfil","path":"/panel/profile"},
+                {"title":"Números","path":"/panel/numbers"},
+                {"title":"Na prática","path":"/panel/practice"}
+            ]},
+            {"title": "Stack","path":"/panel/stack","list":[
+                {"title":"Categorias","path":"/panel/stack/category"},
+                {"title":"Gerenciar","path":"/panel/stack"},
+                {"title":"Adicionar","path":"/panel/stack/add"}
+            ]},
+            {"title": "Trajetória","path":"/panel/trajectory","list":[
+                {"title":"Gerenciar","path":"/panel/trajectory"},
+                {"title":"Adicionar","path":"/panel/trajectory/add"}
+            ]},
+            {"title": "Experiência","path":"/panel/experience","list":[
+                {"title":"Gerenciar","path":"/panel/experience"},
+                {"title":"Adicionar","path":"/panel/experience/add"}
+            ]},
+            {"title": "Certificados","path":"/certificates","list":[
+                {"title":"Gerenciar","path":"/panel/certificates"},
+                {"title":"Adicionar","path":"/panel/certificates/add"}
+            ]},
+            {"title": "Projetos","path":"/projects","list":[
+                {"title":"Gerenciar","path":"/panel/projects"},
+                {"title":"Adicionar","path":"/panel/projects/add"},
+                {"title":"Categorias","path":"/panel/projects/categories"}
+            ]}
+        ]
+    }
+}

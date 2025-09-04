@@ -1,0 +1,18 @@
+{
+  "result": "1",
+  "response": [
+    {
+      "name": "Todos",
+      "id": ""
+    },
+    {
+      "name": "Websites",
+      "id": "1"
+    },
+    {
+      "name": "Sistemas",
+      "id": "2"
+    }
+  ],
+  "error": []
+}

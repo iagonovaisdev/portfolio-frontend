@@ -1,0 +1,34 @@
+{
+  "result": "1",
+  "response": [
+    {
+      "year": "2010-2012",
+      "text": "O meu começo na jornada de desenvolvimento web se começou pela área de criação de sites institucionais para atender as empresas da região, utilizando de ferramentas da época, criava layouts com photoshop ou fireworks, e os exportava para fazer a parte de desenvolvimento do site utilizando o dreamweaver, no começo os projetos eram estáticos."
+    },
+    {
+      "year": "2012-2013",
+      "text": "Com os avanços dos projetos, e aumento das demandas por parte dos clientes em regime de trabalho freelancer, comecei a me especializar e começar a desenvolver os sites de forma dinâmica ainda utilizando o Dreamweaver, com dashboards gerenciaveis, para dar o cliente a liberdade de poder atualizar seu próprio site e conteúdo."
+    },
+    {
+      "year": "2014-2016",
+      "text": "Consegui o meu primeiro trabalho na área de desenvolvimento web, abandonado as ferramentas de criação visual, e partindo para a criação de sites de forma independente utilizando de IDE’S para edição dos códigos, e elevando a qualidade do trabalho, seguindo os padrões tableless, e migrando para bibliotecas mais dinâmicas em javascript como o Jquery."
+    },
+    {
+      "year": "2017-2018",
+      "text": "Começo aqui a jornada em focar na responsividade, qualidade e agilidade na entrega dos meus projetos, focando em utilizar frameworks como Bootstrap, e especialização na utilização do Wordpress como CMS base dos projetos de websites."
+    },
+    {
+      "year": "2018-2019",
+      "text": "Indo além dos websites, começo a trabalhar em projetos de sistemas complexos, elaborando toda a estrutura do projeto através do briefing do cliente, desenvolvo interface, banco de dados, dashboard de gerenciamento e entregando todo o projeto de maneira autônoma, ou dividindo o trabalho em equipe."
+    },
+    {
+      "year": "2020-2022",
+      "text": "Começo a liderar e desenvolver novos projetos de grande valor em experiência técnica, além de dar manutenção em sistemas que exigem um nível mais elevado de responsabilidade, como uma plataforma de gestão de transparência pública municipal."
+    },
+    {
+      "year": "2023-2024",
+      "text": "Visando sempre me manter atualizado, começo o foco a migração para as novas tecnologias utilizando GIT para versionamento, pré-processadores CSS como o SASS e LESS, migração do javascript para o typescript, frameworks modernos como o React para o frontend, PHP orientado a objectos no backend e atualmente estudando novas tecnologias e bancos de dados como o NODE.JS e MongoDB."
+    }
+  ],
+  "error": []
+}

@@ -1,0 +1,30 @@
+{
+  "result": "1",
+  "response": [
+    {
+      "name": "Freelancer",
+      "year_start": "2009",
+      "year_end": "ano atual",
+      "text": "Desempenhando papel como freelancer na criação de sites, sistemas e aplicações web de sob demanda.",
+      "tecs": "HTML, CSS, Bootstrap, Sass, Less, Javascript, Jquery, Typescript, GIT, React, PHP, Mysql",
+      "hightlights": "Websites gerenciavéis, sistemas web sob-demanda"
+    },
+    {
+      "name": "Tributaliza",
+      "year_start": "2024",
+      "year_end": "ano atual",
+      "text": "Desenvolvimento de interfaces no frontend.",
+      "tecs": "HTML, CSS, Bootstrap, Sass, Less, Javascript, Jquery, Typescript, GIT, React, OpenAPI, Swagger",
+      "hightlights": "Websites gerenciavéis, sistemas web sob-demanda"
+    },
+    {
+      "name": "Hpdesign",
+      "year_start": "2014",
+      "year_end": "ano atual",
+      "text": "Desempenhando papel como desenvolvedor full-stack, fazendo gestão de projetos, equipe e implementando todo o projeto como desenvolvimento de UX/UI, banco de dados, frontend e backend.",
+      "tecs": "HTML, CSS, Bootstrap, Sass, Less, Javascript, Jquery, Typescript, GIT, React, PHP, Mysql",
+      "hightlights": "Websites gerenciavéis, sistemas web sob-demanda"
+    }
+  ],
+  "error": []
+}

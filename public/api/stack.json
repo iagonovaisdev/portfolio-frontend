@@ -1,0 +1,106 @@
+{
+  "result": "1",
+  "response": [
+    {
+      "name": "Frontend",
+      "icon": "lni lni-pallet",
+      "list": [
+        {
+          "name": "HTML",
+          "icon": "/tecs/html.png",
+          "color": "#e34f26",
+          "time": "10 anos"
+        },
+        {
+          "name": "CSS",
+          "icon": "/tecs/css.png",
+          "color": "#214ce5",
+          "time": "10 anos",
+          "list": [
+            {
+              "name": "Bootstrap",
+              "icon": "/tecs/bootstrap.png",
+              "color": "#8f0bfd",
+              "time": "10 anos"
+            },
+            {
+              "name": "Sass",
+              "icon": "/tecs/sass.png",
+              "color": "#ce679a",
+              "time": "10 anos"
+            },
+            {
+              "name": "Less",
+              "icon": "/tecs/less.png",
+              "color": "#283583",
+              "time": "10 anos"
+            }
+          ]
+        },
+        {
+          "name": "Javascript",
+          "icon": "/tecs/javascript.png",
+          "color": "#d4b830",
+          "time": "10 anos",
+          "list": [
+            {
+              "name": "Jquery",
+              "icon": "/tecs/jquery.png",
+              "color": "#0868ac",
+              "time": "10 anos"
+            }
+          ]
+        },
+        {
+          "name": "Typescript",
+          "icon": "/tecs/typescript.png",
+          "color": "#007acc",
+          "time": "10 anos"
+        },
+        {
+          "name": "ReactJS",
+          "icon": "/tecs/react.png",
+          "color": "#00d8ff",
+          "time": "10 anos"
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "icon": "lni lni-database",
+      "list": [
+        {
+          "name": "PHP",
+          "icon": "/tecs/php.png",
+          "color": "#6181b6",
+          "time": "10 anos"
+        },
+        {
+          "name": "Mysql",
+          "icon": "/tecs/mysql.png",
+          "color": "#00618a",
+          "time": "10 anos"
+        }
+      ]
+    },
+    {
+      "name": "UI/UX",
+      "icon": "lni lni-brush",
+      "list": [
+        {
+          "name": "Photoshop",
+          "icon": "/tecs/photoshop.png",
+          "color": "#00aaff",
+          "time": "10 anos"
+        },
+        {
+          "name": "Figma",
+          "icon": "/tecs/figma.png",
+          "color": "#f24e1e",
+          "time": "10 anos"
+        }
+      ]
+    }
+  ],
+  "error": []
+}

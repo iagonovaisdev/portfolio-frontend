@@ -1,0 +1,23 @@
+[
+  { "variable": "--color-bg-1", "value": "#B5D0E7" },
+  { "variable": "--color-bg-2", "value": "#023056" },
+  { "variable": "--color-bg-3", "value": "#034a84" },
+  { "variable": "--color-bg-4", "value": "#0564b2" },
+  { "variable": "--color-bg-5", "value": "#067ee0" },
+  { "variable": "--color-bg-6", "value": "#067ee0" },
+
+  { "variable": "--color-1", "value": "#B5D0E7" },
+  { "variable": "--color-2", "value": "#023056" },
+  { "variable": "--color-3", "value": "#034a84" },
+  { "variable": "--color-4", "value": "#0564b2" },
+  { "variable": "--color-5", "value": "#067ee0" },
+  { "variable": "--color-6", "value": "#067ee0" },
+
+  { "variable": "--color-darker", "value": "rgba(0,0,0,.15)" },
+  { "variable": "--color-lighter", "value": "rgba(255,255,255,.15)" },
+  { "variable": "--color-contrast", "value": "var(--color-2)" },
+
+  { "variable": "--color-bg", "value": "rgba(3, 74, 132, .75)" },
+  { "variable": "--color-text", "value": "rgba(255,255,255,.85)" },
+  { "variable": "--color-text-hover", "value": "rgba(255,255,255,1)" }
+]  

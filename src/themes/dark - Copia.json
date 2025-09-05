@@ -1,0 +1,16 @@
+[
+  { "variable": "--color-1", "value": "#041f36" },
+  { "variable": "--color-2", "value": "#011628" },
+  { "variable": "--color-3", "value": "#023056" },
+  { "variable": "--color-4", "value": "#034a84" },
+  { "variable": "--color-5", "value": "#0564b2" },
+  { "variable": "--color-6", "value": "#067ee0" },
+
+  { "variable": "--color-darker", "value": "rgba(0,0,0,.15)" },
+  { "variable": "--color-lighter", "value": "rgba(255,255,255,.15)" },
+  { "variable": "--color-contrast", "value": "rgba(255,255,255,.75)" },
+
+  { "variable": "--color-bg", "value": "rgba(0,27,50,.85)" },
+  { "variable": "--color-text", "value": "rgba(255,255,255,.85)" },
+  { "variable": "--color-text-hover", "value": "rgba(255,255,255,1)" }
+]  

@@ -1,0 +1,12 @@
+[
+  { "variable": "--color-1", "value": "181,208,231" },
+  { "variable": "--color-2", "value": "2,48,86" },
+  { "variable": "--color-3", "value": "3,74,132" },
+  { "variable": "--color-4", "value": "5,100,178" },
+  { "variable": "--color-5", "value": "6,126,224" },
+  { "variable": "--color-6", "value": "6,126,224" },
+
+  { "variable": "--color-dark", "value": "0,0,0" },
+  { "variable": "--color-light", "value": "255,255,255" },
+  { "variable": "--color-contrast", "value": "0,0,0" }
+]  

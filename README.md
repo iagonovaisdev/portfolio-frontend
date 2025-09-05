@@ -1,1 +1,1 @@
-Personal web portfolio project, made with React, NodeJS and MongoDb.
+Frontend of my personal web portfolio project, made with React, NodeJS and MongoDb.

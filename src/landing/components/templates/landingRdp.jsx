@@ -7,7 +7,13 @@ export default function LandingRdp() {
 
     return(
         <div className="rdp">
-            <span>{translation.landing.rdp.title}</span>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                        <span>{translation.landing.rdp.title}</span>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 

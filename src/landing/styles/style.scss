@@ -28,6 +28,12 @@
 
         text-shadow: none;
 
+        .roadmap {
+        
+            background: color($color-2, 1);
+    
+        }
+
         .generic-button {
 
             a {
@@ -1324,7 +1330,16 @@
     }
 
     .roadmap {
+        
+        background-size: 100% auto !important;
+        background-attachment: fixed !important;
 
+        .slick-slider-item-holder {
+        min-height: 300px;
+        }
+
+    }.roadmap {
+        
         background-size: 100% auto !important;
         background-attachment: fixed !important;
 

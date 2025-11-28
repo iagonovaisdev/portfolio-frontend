@@ -68,6 +68,36 @@
 
         }
 
+        .home {
+
+            .bg {
+                background: linear-gradient(
+                to bottom,
+                    rgba($color-2,.15) 0%,     /* leve penumbra geral */
+                    rgba($color-2,.35) 40%,    /* começando a aumentar */
+                    rgba($color-2,.75) 70%,    /* mais forte */
+                    rgba($color-2,.85) 100%     /* forte embaixo */
+                );
+            }
+
+            .home-title,
+            .home-subtitle,
+            .home-text {
+            color: color($color-light,1);
+            }
+
+            .social i {
+            color: color($color-light,1);
+            border-color: color($color-light,.3);
+
+                &:hover {
+                border-color: color($color-6,1);
+                }
+
+            }
+
+        }
+
     }
 
 // Plugins
@@ -409,7 +439,7 @@
         line-height: 44px;
         border-radius: $border-default;
         color: color($color-contrast,1);
-        border: 1px solid color($color-contrast,.5);
+        border: 1px solid color($color-contrast,.3);
         transition: $default-transition;
         text-align: center;
 
@@ -1164,24 +1194,55 @@
 
     .home {
 
-        background: url("../../images/about.jpg") no-repeat center center;
         background-size: 100% auto !important;
         background-attachment: fixed !important;
         background-size: cover !important;
 
+        .videohero {
+        position: absolute;
+        height: calc(100vh - 70px);
+        max-height: 1080px;
+        width: 100%;
+        object-fit: cover;
+        z-index: 2;
+        overflow: hidden;
+        }
+
+        .videohero video {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+
+        .holder {
+        width: 100%;
+        height: calc(100vh - 70px);
+        max-height: 1080px;
+        }
+
         .bg {
+        width: 100%;
         height: calc(100vh - 70px);
         max-height: 1080px;
         display: flex;
-        align-items: center;
+        align-items: baseline;
         color: color($color-contrast,1);
-        background: color($color-1,.9);
+        background: color($color-1,.85);
+        background: linear-gradient(
+        to bottom,
+            rgba($color-1,.15) 0%,     /* leve penumbra geral */
+            rgba($color-1,.35) 40%,    /* começando a aumentar */
+            rgba($color-1,.75) 70%,    /* mais forte */
+            rgba($color-1,.85) 100%     /* forte embaixo */
+        );
+        position: absolute;
+        z-index: 2;
         }
 
         .container {
-        background-size: 520px auto;
-        padding-top: 320px;
-        margin: auto auto auto auto;
+        margin: auto auto 50px auto;
         width: 100%;
         max-width: 900px;
         text-align: center;
@@ -1975,15 +2036,21 @@
 
         .home {
 
+            .videohero,
+            .bg,
+            .holder {
+            min-height: 0;
+            height: calc(100vh - 58px);
+            max-height: 1280px;
+            }
+
             .container {
-            background: url("../../images/developer.png") no-repeat top center;
-            background-size: 380px auto;
-            padding-top: 240px;
-            margin: auto auto auto auto;
+            margin: auto auto 0 auto;
             width: 100%;
             max-width: 900px;
             text-align: center;
             }
+            
 
         }
 

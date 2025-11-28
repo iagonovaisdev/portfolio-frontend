@@ -5,6 +5,7 @@ import { AppContext } from '../context/AppContext/AppContext';
 import AppContextProvider from '../context/AppContext/AppContextProvider';
 
 import LandingHome from './components/templates/landingHome';
+import LandingHomeAnimated from './components/templates/landingHomeAnimated';
 import LandingTop from './components/templates/landingTop';
 import LandingAbout from './components/templates/landingAbout';
 import LandingRoadmap from './components/templates/landingRoadmap';
@@ -21,7 +22,7 @@ export default function Landing() {
     return(
         <>  
             <AppContextProvider>
-                <LandingHome/>
+                <LandingHomeAnimated/>
                 <LandingTop/>
                 <LandingAbout/>
                 <LandingRoadmap/>

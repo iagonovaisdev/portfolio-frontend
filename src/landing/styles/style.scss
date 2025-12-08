@@ -1258,16 +1258,16 @@
         display: block;
         margin: 0 0 20px 0;
         font-weight: 300;
-        font-size: 32px;
-        line-height: 34px;
+        font-size: 36px;
+        line-height: 38px;
         }
 
         &-subtitle {
         display: block;
         margin: 0 0 20px 0;
         font-weight: 700;
-        font-size: 32px;
-        line-height: 32px;
+        font-size: 35px;
+        line-height: 36px;
         color: color($color-contrast,.8);
         }
     
@@ -1280,7 +1280,7 @@
         display: block;
         margin: 0 0 20px 0;
         font-weight: 300;
-        font-size: 22px;
+        font-size: 24px;
         line-height: 26px;
         }
 
@@ -1411,6 +1411,7 @@
     }
 
     .experience {
+
         
         .slickExperience {
 
@@ -1760,6 +1761,13 @@
             min-height: 100vh;
             padding-bottom: 30px;
             padding-top: 20px;
+            background: linear-gradient(
+                to bottom,
+                    rgba($color-1,.6) 0%,     /* leve penumbra geral */
+                    rgba($color-1,.7) 40%,    /* começando a aumentar */
+                    rgba($color-1,.8) 70%,    /* mais forte */
+                    rgba($color-1,.95) 100%     /* forte embaixo */
+                );
             }
 
         }
@@ -1767,6 +1775,7 @@
 
         .home-title {
         margin: auto auto 10px auto;
+        width: 95%;
         max-width: 215px;
         font-size: 26px;
         line-height: 26px;  
@@ -1774,6 +1783,7 @@
 
         .home-subtitle {
         margin: auto auto 10px auto;
+        width: 95%;
         max-width: 360px;
         font-size: 24px;
         line-height: 24px;            
@@ -1781,9 +1791,10 @@
 
         .home-text {
         margin: auto auto 10px auto;
+        width: 95%;
         max-width: 360px;
         font-size: 20px;
-        line-height: 22px;
+        line-height: 24px;
         }
 
         .top {
@@ -1874,8 +1885,9 @@
         }
 
         .section-title .subtitle {
-        font-size: 60px;
-        line-height: 60px;
+        transform: translateY(-54px);
+        font-size: 46px;
+        line-height: 46px;
         }
 
         .section-title .description {
@@ -2052,6 +2064,50 @@
             }
             
 
+        }
+
+        .list-projects .project .content .badges {
+        justify-content: center;
+        }
+
+        .list-projects .project .content .description {
+        border: 0;
+        border-top: 4px solid rgba(var(--color-6), 1);
+        padding: 20px 0 20px 0;
+        margin: 10px 0 0 0;
+        }
+
+        .list-badges-item .description {
+        text-align: left;
+        }
+
+        .list-projects .project .video iframe {
+        height: 220px;
+        }
+
+        .list-projects .project .content .title {
+        text-align: center;
+        }
+
+        .list-projects .project .content .description {
+        text-align: center;
+        }
+
+        .list-projects .project .content .link {
+        flex-direction: column;
+        }
+
+        .list-projects .project .content .link a, .list-projects .project .content .link span {
+        text-align: center;
+        margin-bottom: 12px;
+        }
+
+        .list-projects .project .content .link a:last-child, .list-projects .project .content .link span:last-child {
+        margin-bottom: 0;
+        }
+
+        .modal.show .modal-dialog {
+        margin: 10px auto auto auto;
         }
 
     }

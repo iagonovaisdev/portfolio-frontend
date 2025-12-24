@@ -122,8 +122,8 @@ export default function PanelIntro() {
                             content={{
                                 "title":"Na prática",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Na prática','href':'/panel/practice/','active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Na prática','href':'/control/practice/','active':'true'}
                                 ]
                             }}
                             />

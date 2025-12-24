@@ -129,8 +129,8 @@ export default function PanelIntro() {
                             content={{
                                 "title":"Introdução",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Introdução','href':'/panel/intro/','active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Introdução','href':'/control/intro/','active':'true'}
                                 ]
                             }}
                             />

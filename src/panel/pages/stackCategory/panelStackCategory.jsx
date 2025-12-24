@@ -124,9 +124,9 @@ export default function PanelStackCategory() {
                     content={{
                         "title":"Stack (Categorias)",
                         "list":[
-                            {'title':'Painel','href':'/panel','active':''},
-                            {'title':'Stack','href':'/panel/stack','active':''},
-                            {'title':'Categorias','href':'/panel/stack-category','active':'true'}
+                            {'title':'Painel','href':'/control','active':''},
+                            {'title':'Stack','href':'/control/stack','active':''},
+                            {'title':'Categorias','href':'/control/stack-category','active':'true'}
                         ]
                     }}
                     />

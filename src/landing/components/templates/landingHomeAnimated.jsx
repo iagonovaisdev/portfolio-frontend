@@ -16,7 +16,8 @@ export default function LandingHome() {
                 "title":"",
                 "description":""
             },
-        }
+        },
+        "cover":""
     });
     const [data,setData] = useState({
         "content":{
@@ -63,8 +64,9 @@ export default function LandingHome() {
         <>
             <Helmet>
                 <title>{seo.content[translation.code].title}</title>
-                <meta name="description" content="{seo.content[translation.code].description}"/>
-                <link rel="icon" href="{seo.cover}" type="image/x-icon" />
+                <meta name="description" content={seo.content[translation.code].description}/>
+                <link rel="shortcut icon" href={seo.cover} type="image/x-icon"/>
+                <link rel="icon" href={seo.cover} type="image/x-icon"/>
             </Helmet>
             <div id="home" className="home">
                 <div className="videohero">

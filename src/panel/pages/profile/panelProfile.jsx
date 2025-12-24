@@ -133,9 +133,9 @@ export default function PanelProfile() {
                             content={{
                                 "title":"Perfil",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Profile','href':'/panel/profile','active':''},
-                                    {'title':'Gerenciar','href':'/panel/profile/','active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Profile','href':'/control/profile','active':''},
+                                    {'title':'Gerenciar','href':'/control/profile/','active':'true'}
                                 ]
                             }}
                             />

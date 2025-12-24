@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 export const PublicApi = axios.create({
-    baseURL: "http://localhost:3000"
+    // baseURL: "http://localhost:3001/api"
+    baseURL: "/api"
 });
 
 export const PublicApiGet = async (props) => {

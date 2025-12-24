@@ -117,8 +117,8 @@ export default function PanelSeo() {
                             content={{
                                 "title":"SEO",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'SEO','href':'/panel/seo/','active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'SEO','href':'/control/seo/','active':'true'}
                                 ]
                             }}
                             />

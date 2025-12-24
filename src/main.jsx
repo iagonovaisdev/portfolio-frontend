@@ -49,7 +49,7 @@ const router = createBrowserRouter([
   { 'path':'/', 'element': <Landing/> },
   { 'path':'login', 'element': <PanelLogin/> },
   { 
-    'path':'/panel', 
+    'path':'/control', 
     'element': <Panel/>,
     'children': [
       { 'path':'', 'element': <PanelHomeComponent/> },

@@ -123,8 +123,8 @@ export default function PanelExperience() {
                     content={{
                         "title":"Experiência",
                         "list":[
-                            {'title':'Painel','href':'/panel','active':''},
-                            {'title':'Experiência','href':'/panel/experience','active':'true'}
+                            {'title':'Painel','href':'/control','active':''},
+                            {'title':'Experiência','href':'/control/experience','active':'true'}
                         ]
                     }}
                     />

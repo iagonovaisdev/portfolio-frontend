@@ -139,9 +139,9 @@ export default function PanelStackAdd() {
                             content={{
                                 "title":"Adicionar stack",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Stack','href':'/panel/stack','active':''},
-                                    {'title':'Adicionar','href':'/panel/stack/add','active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Stack','href':'/control/stack','active':''},
+                                    {'title':'Adicionar','href':'/control/stack/add','active':'true'}
                                 ]
                             }}
                             />

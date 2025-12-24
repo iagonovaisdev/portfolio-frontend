@@ -148,9 +148,9 @@ export default function PanelProjectsEdit() {
                             content={{
                                 "title":"Editar projeto",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Projetos','href':'/panel/projects','active':''},
-                                    {'title':'Editar','href':'/panel/projects/edit/'+id,'active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Projetos','href':'/control/projects','active':''},
+                                    {'title':'Editar','href':'/control/projects/edit/'+id,'active':'true'}
                                 ]
                             }}
                             />

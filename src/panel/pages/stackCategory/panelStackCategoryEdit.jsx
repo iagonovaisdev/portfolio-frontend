@@ -113,10 +113,10 @@ export default function PanelStackCategoryEdit() {
                             content={{
                                 "title":"Editar categoria",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Stack','href':'/panel/stack','active':''},
-                                    {'title':'Categorias','href':'/panel/stack/category','active':''},
-                                    {'title':'Editar','href':'/panel/stack/category/edit/'+id,'active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Stack','href':'/control/stack','active':''},
+                                    {'title':'Categorias','href':'/control/stack/category','active':''},
+                                    {'title':'Editar','href':'/control/stack/category/edit/'+id,'active':'true'}
                                 ]
                             }}
                             />

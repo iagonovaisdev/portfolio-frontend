@@ -92,10 +92,10 @@ export default function PanelStackCategoryAdd() {
                             content={{
                                 "title":"Adicionar categoria",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Stack','href':'/panel/stack','active':''},
-                                    {'title':'Categorias','href':'/panel/stack/category','active':''},
-                                    {'title':'Adicionar','href':'/panel/stack/category/add','active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Stack','href':'/control/stack','active':''},
+                                    {'title':'Categorias','href':'/control/stack/category','active':''},
+                                    {'title':'Adicionar','href':'/control/stack/category/add','active':'true'}
                                 ]
                             }}
                             />

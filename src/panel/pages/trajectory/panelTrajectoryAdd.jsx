@@ -93,9 +93,9 @@ export default function PanelTrajectoryAdd() {
                             content={{
                                 "title":"Adicionar trajetória",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Trajetória','href':'/panel/trajectory','active':''},
-                                    {'title':'Adicionar','href':'/panel/trajectory/add','active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Trajetória','href':'/control/trajectory','active':''},
+                                    {'title':'Adicionar','href':'/control/trajectory/add','active':'true'}
                                 ]
                             }}
                             />

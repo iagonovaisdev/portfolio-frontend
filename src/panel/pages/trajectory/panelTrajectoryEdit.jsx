@@ -113,9 +113,9 @@ export default function PanelTrajectoryEdit() {
                             content={{
                                 "title":"Editar trajetória",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Trajetória','href':'/panel/trajectory','active':''},
-                                    {'title':'Editar','href':'/panel/trajectory/edit/'+id,'active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Trajetória','href':'/control/trajectory','active':''},
+                                    {'title':'Editar','href':'/control/trajectory/edit/'+id,'active':'true'}
                                 ]
                             }}
                             />

@@ -121,8 +121,8 @@ export default function PanelTrajectory() {
                     content={{
                         "title":"Trajetória",
                         "list":[
-                            {'title':'Painel','href':'/panel','active':''},
-                            {'title':'Trajetória','href':'/panel/trajectory','active':'true'}
+                            {'title':'Painel','href':'/control','active':''},
+                            {'title':'Trajetória','href':'/control/trajectory','active':'true'}
                         ]
                     }}
                     />

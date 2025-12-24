@@ -128,9 +128,9 @@ export default function PanelProjectsAdd() {
                             content={{
                                 "title":"Adicionar projeto",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Projetos','href':'/panel/projects','active':''},
-                                    {'title':'Adicionar','href':'/panel/projects/add','active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Projetos','href':'/control/projects','active':''},
+                                    {'title':'Adicionar','href':'/control/projects/add','active':'true'}
                                 ]
                             }}
                             />

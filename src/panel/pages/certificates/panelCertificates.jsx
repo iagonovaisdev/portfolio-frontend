@@ -123,8 +123,8 @@ export default function PanelCertificates() {
                     content={{
                         "title":"Certificados",
                         "list":[
-                            {'title':'Painel','href':'/panel','active':''},
-                            {'title':'Certificados','href':'/panel/certificates','active':'true'}
+                            {'title':'Painel','href':'/control','active':''},
+                            {'title':'Certificados','href':'/control/certificates','active':'true'}
                         ]
                     }}
                     />

@@ -96,9 +96,9 @@ export default function PanelCertificatesAdd() {
                             content={{
                                 "title":"Adicionar certificado",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Certificados','href':'/panel/certificates','active':''},
-                                    {'title':'Adicionar','href':'/panel/certificates/add','active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Certificados','href':'/control/certificates','active':''},
+                                    {'title':'Adicionar','href':'/control/certificates/add','active':'true'}
                                 ]
                             }}
                             />

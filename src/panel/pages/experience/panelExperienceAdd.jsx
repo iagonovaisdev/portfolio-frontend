@@ -97,9 +97,9 @@ export default function PanelExperienceAdd() {
                             content={{
                                 "title":"Adicionar experiência",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Experiência','href':'/panel/experience','active':''},
-                                    {'title':'Adicionar','href':'/panel/experience/add','active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Experiência','href':'/control/experience','active':''},
+                                    {'title':'Adicionar','href':'/control/experience/add','active':'true'}
                                 ]
                             }}
                             />

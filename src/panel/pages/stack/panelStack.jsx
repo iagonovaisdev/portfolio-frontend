@@ -123,8 +123,8 @@ export default function PanelStack() {
                     content={{
                         "title":"Stack",
                         "list":[
-                            {'title':'Painel','href':'/panel','active':''},
-                            {'title':'Stack','href':'/panel/stack','active':'true'}
+                            {'title':'Painel','href':'/control','active':''},
+                            {'title':'Stack','href':'/control/stack','active':'true'}
                         ]
                     }}
                     />

@@ -119,8 +119,8 @@ export default function PanelIntro() {
                             content={{
                                 "title":"Números",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Números','href':'/panel/numbers/','active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Números','href':'/control/numbers/','active':'true'}
                                 ]
                             }}
                             />

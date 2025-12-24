@@ -166,35 +166,35 @@
     },
     "panel": {
         "menu": [
-            {"title": "Início","path":"/panel"},
-            {"title": "Informações","path":"/panel/profile","list":[
-                {"title":"SEO","path":"/panel/seo"},
-                {"title":"Introdução","path":"/panel/intro"},
-                {"title":"Perfil","path":"/panel/profile"},
-                {"title":"Números","path":"/panel/numbers"},
-                {"title":"Na prática","path":"/panel/practice"}
+            {"title": "Início","path":"/control"},
+            {"title": "Informações","path":"/control/profile","list":[
+                {"title":"SEO","path":"/control/seo"},
+                {"title":"Introdução","path":"/control/intro"},
+                {"title":"Perfil","path":"/control/profile"},
+                {"title":"Números","path":"/control/numbers"},
+                {"title":"Na prática","path":"/control/practice"}
             ]},
-            {"title": "Stack","path":"/panel/stack","list":[
-                {"title":"Categorias","path":"/panel/stack/category"},
-                {"title":"Gerenciar","path":"/panel/stack"},
-                {"title":"Adicionar","path":"/panel/stack/add"}
+            {"title": "Stack","path":"/control/stack","list":[
+                {"title":"Categorias","path":"/control/stack/category"},
+                {"title":"Gerenciar","path":"/control/stack"},
+                {"title":"Adicionar","path":"/control/stack/add"}
             ]},
-            {"title": "Trajetória","path":"/panel/trajectory","list":[
-                {"title":"Gerenciar","path":"/panel/trajectory"},
-                {"title":"Adicionar","path":"/panel/trajectory/add"}
+            {"title": "Trajetória","path":"/control/trajectory","list":[
+                {"title":"Gerenciar","path":"/control/trajectory"},
+                {"title":"Adicionar","path":"/control/trajectory/add"}
             ]},
-            {"title": "Experiência","path":"/panel/experience","list":[
-                {"title":"Gerenciar","path":"/panel/experience"},
-                {"title":"Adicionar","path":"/panel/experience/add"}
+            {"title": "Experiência","path":"/control/experience","list":[
+                {"title":"Gerenciar","path":"/control/experience"},
+                {"title":"Adicionar","path":"/control/experience/add"}
             ]},
             {"title": "Certificados","path":"/certificates","list":[
-                {"title":"Gerenciar","path":"/panel/certificates"},
-                {"title":"Adicionar","path":"/panel/certificates/add"}
+                {"title":"Gerenciar","path":"/control/certificates"},
+                {"title":"Adicionar","path":"/control/certificates/add"}
             ]},
             {"title": "Projetos","path":"/projects","list":[
-                {"title":"Gerenciar","path":"/panel/projects"},
-                {"title":"Adicionar","path":"/panel/projects/add"},
-                {"title":"Categorias","path":"/panel/projects/categories"}
+                {"title":"Gerenciar","path":"/control/projects"},
+                {"title":"Adicionar","path":"/control/projects/add"},
+                {"title":"Categorias","path":"/control/projects/categories"}
             ]}
         ]
     }

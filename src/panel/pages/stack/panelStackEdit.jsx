@@ -160,9 +160,9 @@ export default function PanelStackEdit() {
                             content={{
                                 "title":"Editar stack",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Stack','href':'/panel/stack','active':''},
-                                    {'title':'Editar','href':'/panel/stack/edit/'+id,'active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Stack','href':'/control/stack','active':''},
+                                    {'title':'Editar','href':'/control/stack/edit/'+id,'active':'true'}
                                 ]
                             }}
                             />

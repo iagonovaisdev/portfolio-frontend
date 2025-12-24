@@ -50,7 +50,7 @@ export default function PanelLoginComponent() {
                 setLoading(false);
                 newAuth = JSON.stringify(newAuth);
                 handleSetAuth(newAuth);
-                window.location.href= "/panel";
+                window.location.href= "/control";
             }
         })
         .catch((error)=>{

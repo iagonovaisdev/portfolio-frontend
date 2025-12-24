@@ -115,9 +115,9 @@ export default function PanelCertificatesEdit() {
                             content={{
                                 "title":"Editar certificado",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Certificados','href':'/panel/certificates','active':''},
-                                    {'title':'Editar','href':'/panel/certificates/edit/'+id,'active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Certificados','href':'/control/certificates','active':''},
+                                    {'title':'Editar','href':'/control/certificates/edit/'+id,'active':'true'}
                                 ]
                             }}
                             />

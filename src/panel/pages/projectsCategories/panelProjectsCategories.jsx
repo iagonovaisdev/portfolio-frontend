@@ -124,9 +124,9 @@ export default function PanelProjectsCategories() {
                     content={{
                         "title":"Projetos (Categorias)",
                         "list":[
-                            {'title':'Painel','href':'/panel','active':''},
-                            {'title':'Projetos','href':'/panel/projetos','active':''},
-                            {'title':'Categorias','href':'/panel/stack-categories','active':'true'}
+                            {'title':'Painel','href':'/control','active':''},
+                            {'title':'Projetos','href':'/control/projetos','active':''},
+                            {'title':'Categorias','href':'/control/stack-categories','active':'true'}
                         ]
                     }}
                     />

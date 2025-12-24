@@ -28,7 +28,7 @@ export default function Landing() {
                 <LandingRoadmap/>
                 <LandingExperience/>
                 <LandingNumbers/>
-                {<LandingPractice/>}
+                <LandingPractice/>
                 <LandingMore/>
                 <LandingProjects/>
                 <LandingContact/>

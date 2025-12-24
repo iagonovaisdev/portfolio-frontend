@@ -123,8 +123,8 @@ export default function PanelProjects() {
                     content={{
                         "title":"Projetos",
                         "list":[
-                            {'title':'Painel','href':'/panel','active':''},
-                            {'title':'Projetos','href':'/panel/projects','active':'true'}
+                            {'title':'Painel','href':'/control','active':''},
+                            {'title':'Projetos','href':'/control/projects','active':'true'}
                         ]
                     }}
                     />

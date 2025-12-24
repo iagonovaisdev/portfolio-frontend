@@ -119,9 +119,9 @@ export default function PanelExperienceEdit() {
                             content={{
                                 "title":"Editar experiência",
                                 "list":[
-                                    {'title':'Painel','href':'/panel','active':''},
-                                    {'title':'Experiência','href':'/panel/experience','active':''},
-                                    {'title':'Editar','href':'/panel/experience/edit/'+id,'active':'true'}
+                                    {'title':'Painel','href':'/control','active':''},
+                                    {'title':'Experiência','href':'/control/experience','active':''},
+                                    {'title':'Editar','href':'/control/experience/edit/'+id,'active':'true'}
                                 ]
                             }}
                             />

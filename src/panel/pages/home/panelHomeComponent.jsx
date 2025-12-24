@@ -13,7 +13,7 @@ export default function PanelHomeComponent() {
             content={{
                 "title":"Bem vindo",
                 "list":[
-                    {'title':'Panel','href':'/panel','active':''}
+                    {'title':'Painel','href':'/control','active':''}
                 ]
             }}
             />

@@ -34,7 +34,7 @@ export default function PanelUp(){
                         <div className="col col-xs-4 col-md-4">
                             <div className="logo">
                                 <a href="">
-                                    <span className="name">Iago<strong>_</strong></span>
+                                    <span className="name">IN<strong>_</strong></span>
                                 </a>
                             </div>
                         </div>

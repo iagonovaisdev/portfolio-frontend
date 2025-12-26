@@ -140,7 +140,7 @@ export default function PanelTrajectory() {
                                     <span onClick={reorder} className={`panel-content-button ${!ordering ? 'panel-content-button-disabled':''} float-right`}>
                                         Reordenar <i className="lni lni-list"></i>
                                     </span>
-                                    <a href="/panel/trajectory/add" className="panel-content-button float-right">
+                                    <a href="/control/trajectory/add" className="panel-content-button float-right">
                                         Adicionar <i className="lni lni-plus"></i>
                                     </a>
                                 </div>

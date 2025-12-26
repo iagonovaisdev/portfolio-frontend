@@ -41,7 +41,7 @@ export default function PanelUp(){
                         <div className="col col-xs-4 col-md-8">
                             <div className="panel-user d-none d-md-block d-lg-block">
                                 <span className="email"><i className="lni lni-user"></i> {auth.email}</span>
-                                <a href="/panel/config" className="config"><i className="lni lni-cog"></i></a>
+                                <a href="/control/config" className="config"><i className="lni lni-cog"></i></a>
                                 <a onClick={logout} href="#" className="logout"><i className="lni lni-power-switch"></i></a>
                             </div>
                             <div className="toggle user-toggle d-md-none">
@@ -95,8 +95,8 @@ export default function PanelUp(){
                                         <Offcanvas.Body>
                                             <span><i className="lni lni-user"></i>{auth.email}</span>
                                             <Nav>
-                                                <Nav.Link className="nav-linker" href="/panel/config"><i className="lni lni-cog"></i> Configurações</Nav.Link>
-                                                <Nav.Link className="nav-linker" href="/panel/logout"><i className="lni lni-power-switch"></i> Sair</Nav.Link>
+                                                <Nav.Link className="nav-linker" href="/control/config"><i className="lni lni-cog"></i> Configurações</Nav.Link>
+                                                <Nav.Link className="nav-linker" href="/control/logout"><i className="lni lni-power-switch"></i> Sair</Nav.Link>
                                             </Nav>
                                         </Offcanvas.Body>
                                     </Navbar.Offcanvas>

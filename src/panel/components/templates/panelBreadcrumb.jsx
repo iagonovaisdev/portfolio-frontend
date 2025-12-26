@@ -11,7 +11,7 @@ export default function panelBreadcrumb(props) {
             <div className="bg">
                 {props.content.title && <h1>{props.content.title}</h1>}
                 <Breadcrumb>
-                    <Breadcrumb.Item href="/panel/"><i className="lni lni-home"></i></Breadcrumb.Item>
+                    <Breadcrumb.Item href="/control/"><i className="lni lni-home"></i></Breadcrumb.Item>
                     {props.content.list && props.content.list.map( (item,i) =>
                         item.active == "true" ? (
                             <Breadcrumb.Item key={i} active>{item.title}</Breadcrumb.Item>

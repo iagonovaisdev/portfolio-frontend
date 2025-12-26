@@ -40,14 +40,13 @@
                 {"slug":"english","name":"English","text":""}
             ],
             "contact":[
-                {"name":"E-mail","icon":"lni lni-envelope","text":"contato@iagonovais.dev"},
-                {"name":"Phone","icon":"lni lni-phone","text":"77 9.9846-5282"}
+                {"name":"E-mail","icon":"lni lni-envelope","text":"iagonovaisdev@gmail.com"}
             ],
             "social":[
-                {"name":"Linkedin","icon":"lni lni-linkedin","link":"https://linkedin.com/iagonovaisdev"},
+                {"name":"Linkedin","icon":"lni lni-linkedin","link":"https://br.linkedin.com/in/iagonovaisdev"},
                 {"name":"Github","icon":"lni lni-github","link":"https://github.com/iagonovaisdev"},
-                {"name":"Youtube","icon":"lni lni-youtube","link":"https://youtube.com/iagonovaisdev"},
-                {"name":"Instagram","icon":"lni lni-instagram","link":"https://instagram.com/iagonovaisdev"}
+                {"name":"Youtube","icon":"lni lni-youtube","link":"https://www.youtube.com/@iagonovaisdev"},
+                {"name":"Instagram","icon":"lni lni-instagram","link":"https://www.instagram.com/iagonovaisdev"}
             ]
         },
         "about": {

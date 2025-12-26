@@ -167,7 +167,7 @@ export default function PanelTrajectory() {
                                                     <td>{item.year}</td>
                                                     <td>
                                                         <div className="tabled-actions float-right">
-                                                            <a title="Editar" href={`/panel/trajectory/edit/${item.id}`}><i className="lni lni-pencil"></i></a>
+                                                            <a title="Editar" href={`/control/trajectory/edit/${item.id}`}><i className="lni lni-pencil"></i></a>
                                                             <a title="Deletar" onClick={()=>deleteData(item.id)}  href="#"><i className="lni lni-trash-can"></i></a>
                                                         </div>
                                                     </td>

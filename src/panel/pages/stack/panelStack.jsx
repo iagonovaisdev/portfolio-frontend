@@ -169,7 +169,7 @@ export default function PanelStack() {
                                                     <td>{item.content[translation.code].title}</td>
                                                     <td>
                                                         <div className="tabled-actions float-right">
-                                                            <a title="Editar" href={`/panel/stack/edit/${item.id}`}><i className="lni lni-pencil"></i></a>
+                                                            <a title="Editar" href={`/control/stack/edit/${item.id}`}><i className="lni lni-pencil"></i></a>
                                                             <a title="Deletar" onClick={()=>deleteData(item.id)}  href="#"><i className="lni lni-trash-can"></i></a>
                                                         </div>
                                                     </td>

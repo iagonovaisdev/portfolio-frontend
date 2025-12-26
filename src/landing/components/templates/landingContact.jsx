@@ -7,7 +7,7 @@ export default function LandingContact() {
 
     const {translation} = useContext(AppContext);
 
-    const [contactLink,setContactLink] = useState("mailto:contato@iagonovais.dev");
+    const [contactLink,setContactLink] = useState("mailto:iagonovaisdev@gmail.com");
     const [contact,setContact] = useState({});
     const [loading,setLoading] = useState(false);
     const [error,setError] = useState(false);
@@ -24,7 +24,7 @@ export default function LandingContact() {
     };
 
     useEffect(() => {
-        const link = `mailto:contato@iagonovais.dev?subject=${encodeURIComponent(form.subject)}&body=${encodeURIComponent(`${form.message}\n\nPor: ${form.name} (${form.email} - ${form.phone})`)}`;
+        const link = `mailto:iagonovaisdev@gmail.com?subject=${encodeURIComponent(form.subject)}&body=${encodeURIComponent(`${form.message}\n\nPor: ${form.name} (${form.email} - ${form.phone})`)}`;
         setContactLink(link);
     }, [form]);
 

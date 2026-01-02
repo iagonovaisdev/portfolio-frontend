@@ -152,6 +152,7 @@ export default function PanelIntro() {
                                                         <PanelField language="pt_br" handleData={handleData} type='text' name='role' label='Cargo' value={data['content']['pt_br'].role}/>
                                                         <PanelField language="pt_br" handleData={handleData} type='text' name='subtitle' label='Subtítulo:' value={data['content']['pt_br'].subtitle}/>
                                                         <PanelField language="pt_br" handleData={handleData} type='textarea' name='description' label='Descrição:' value={data['content']['pt_br'].description}/>
+                                                        <PanelField language="pt_br" handleData={handleData} type='textarea' name='about' label='Sobre mim:' value={data['content']['pt_br'].about}/>
                                                         <strong>Redes sociais:</strong>
                                                         <PanelField language="pt_br" handleData={handleData} type='text' name='linkedin' label='Linkedin:' value={data['content']['pt_br'].linkedin}/>
                                                         <PanelField language="pt_br" handleData={handleData} type='text' name='github' label='Github:' value={data['content']['pt_br'].github}/>
@@ -167,7 +168,8 @@ export default function PanelIntro() {
                                                         <PanelField language="en_us" handleData={handleData} type='text' name='title' label='Title:' value={data['content']['en_us'].title}/>
                                                         <PanelField language="en_us" handleData={handleData} type='text' name='role' label='Role:' value={data['content']['en_us'].role}/>
                                                         <PanelField language="en_us" handleData={handleData} type='text' name='subtitle' label='Subtitle:' value={data['content']['en_us'].subtitle}/>
-                                                        <PanelField language="en_us" handleData={handleData} type='textarea' name='description' label='Graduation:' value={data['content']['en_us'].description}/>
+                                                        <PanelField language="en_us" handleData={handleData} type='textarea' name='description' label='Description:' value={data['content']['en_us'].description}/>
+                                                        <PanelField language="en_us" handleData={handleData} type='textarea' name='about' label='About me:' value={data['content']['en_us'].about}/>
                                                         <strong>Social networks:</strong>
                                                         <PanelField language="en_us" handleData={handleData} type='text' name='linkedin' label='Linkedin:' value={data['content']['en_us'].linkedin}/>
                                                         <PanelField language="en_us" handleData={handleData} type='text' name='github' label='Github:' value={data['content']['en_us'].github}/>

@@ -39,6 +39,16 @@ export default function LandingAbout() {
             },
         }
     });
+    const [intro,setIntro] = useState({
+        "content":{
+            "pt_br": {
+                "about":""
+            },
+            "en_us": {
+                "about":""
+            },
+        }
+    });
     const loadAbout = async () => {
         await PrivateApi.get('/profile/')
         .then((result)=>{
@@ -48,6 +58,18 @@ export default function LandingAbout() {
             }
             updateData.cover = result.data.response[0].cover;
             setAbout(updateData);
+        })
+        .catch(()=>{
+        });
+    };
+    const loadIntro = async () => {
+        await PrivateApi.get('/intro/')
+        .then((result)=>{
+            let updateData = {};
+            if( JSON.parse(result.data.response[0].content) ){
+                updateData.content = JSON.parse(result.data.response[0].content);
+            }
+            setIntro(updateData);
         })
         .catch(()=>{
         });
@@ -64,6 +86,7 @@ export default function LandingAbout() {
     useEffect( () => {
         loadSkills();
         loadAbout();
+        loadIntro();
     },[]);
 
     return(
@@ -102,6 +125,27 @@ export default function LandingAbout() {
                     </div>
                     
                     <div className="col-md-8">
+                        <div className="box">
+                            <details open="open">
+                                <summary className="box-title">
+                                    <i className="lni lni-user"></i>
+                                    <span>{translation.landing.about.title}</span>
+                                    <i className="summary-arrow lni lni-chevron-down"></i>
+                                </summary>
+                                <div className="box-content">
+                                    <div className="list-badges-item">
+                                        <span className="description">
+                                        {intro.content[translation.code].about.split('\n').map((line, i) => (
+                                            <span key={i}>
+                                            {line}
+                                            <br/>
+                                            </span>
+                                        ))}<br/>
+                                        </span>
+                                    </div>
+                                </div>
+                            </details>
+                        </div>
                         {skills && Object.entries(skills).map(([key, top],i) => (
                             <div className="box" key={key}>
                                 <details open="open">

@@ -93,12 +93,12 @@ export default function LandingExperience() {
                                             <div key={i} className="data">
                                                     <div className="name">{experience.content[translation.code].title}</div>
                                                     <div className="time">
-                                                        <span className="start">De {experience.year_start}</span>
-                                                        <span className="end">Até o {experience.year_end}</span>
+                                                        <span className="start">{experience.content[translation.code].year_start}</span>
+                                                        <span className="end">{experience.content[translation.code].year_end}</span>
                                                     </div>
                                                     <div className="text">{experience.content[translation.code].description}</div>
                                                     <div className="tecs">
-                                                        <span><strong>{translation.landing.experience.tech}: </strong> {experience.tech}</span>
+                                                        <span><strong>{translation.landing.experience.tech}: </strong> {experience.content[translation.code].tech}</span>
                                                     </div>
                                             </div>
                                         )}

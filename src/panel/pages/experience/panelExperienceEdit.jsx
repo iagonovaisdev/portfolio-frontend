@@ -31,15 +31,18 @@ export default function PanelExperienceEdit() {
         'msg': []
     });
     const dataModel = {
-        "year_start": "",
-        "year_end": "",
-        "tech": "",
         "content": {
             "pt_br": {
+                "year_start": "",
+                "year_end": "",
+                "tech": "",
                 "title": "",
                 "description": ""
             },
             "en_us": {
+                "year_start": "",
+                "year_end": "",
+                "tech": "",
                 "title": "",
                 "description": ""
             }
@@ -68,11 +71,7 @@ export default function PanelExperienceEdit() {
     
     const handleData = (language,e) => {
         let update = {...data};
-        if(e.target.name == "year_start" || e.target.name == "year_end" || e.target.name == "tech"){
-            update[e.target.name] = e.target.value;
-        } else {
-            update["content"][language][e.target.name] = e.target.value;
-        }
+        update["content"][language][e.target.name] = e.target.value;
         setData(update);
         // console.log(update);
     };
@@ -138,9 +137,9 @@ export default function PanelExperienceEdit() {
                                                 <Tab eventKey="pt_br" title="PT-BR">
                                                     <PanelForm>
                                                         <ReturnComponent type={callback.type} list={callback.msg}/>
-                                                        <PanelField handleData={handleData} type='text' name='year_start' label='Ano inicial:' value={data.year_start}/>
-                                                        <PanelField handleData={handleData} type='text' name='year_end' label='Ano final:' value={data.year_end}/>
-                                                        <PanelField handleData={handleData} type='text' name='tech' label='Tecnologias:' value={data.tech}/>
+                                                        <PanelField language="pt_br" handleData={handleData} type='text' name='year_start' label='Ano inicial:' value={data['content']['pt_br'].year_start}/>
+                                                        <PanelField language="pt_br" handleData={handleData} type='text' name='year_end' label='Ano final:' value={data['content']['pt_br'].year_end}/>
+                                                        <PanelField language="pt_br" handleData={handleData} type='text' name='tech' label='Tecnologias:' value={data['content']['pt_br'].tech}/>
                                                         <PanelField language="pt_br" handleData={handleData} type='text' name='title' label='Título:' value={data['content']['pt_br'].title}/>
                                                         <PanelField language="pt_br" handleData={handleData} type='textarea' name='description' label='Descrição:' value={data['content']['pt_br'].description}/>
                                                         <PanelField submit={handleSubmit} setLoader={setLoader} loader={loader} type='submit' value='Salvar'/>
@@ -149,9 +148,9 @@ export default function PanelExperienceEdit() {
                                                 <Tab eventKey="en_us" title="EN-US">
                                                     <PanelForm>
                                                         <ReturnComponent type={callback.type} list={callback.msg}/>
-                                                        <PanelField handleData={handleData} type='text' name='year_start' label='Start year:' value={data.year_start}/>
-                                                        <PanelField handleData={handleData} type='text' name='year_end' label='End year:' value={data.year_end}/>
-                                                        <PanelField handleData={handleData} type='text' name='tech' label='Techs:' value={data.tech}/>
+                                                        <PanelField language="en_us" handleData={handleData} type='text' name='year_start' label='Start year:' value={data['content']['en_us'].year_start}/>
+                                                        <PanelField language="en_us" handleData={handleData} type='text' name='year_end' label='End year:' value={data['content']['en_us'].year_end}/>
+                                                        <PanelField language="en_us" handleData={handleData} type='text' name='tech' label='Techs:' value={data['content']['en_us'].tech}/>
                                                         <PanelField language="en_us" handleData={handleData} type='text' name='title' label='Title:' value={data['content']['en_us'].title}/>
                                                         <PanelField language="en_us" handleData={handleData} type='textarea' name='description' label='Description:' value={data['content']['en_us'].description}/>
                                                         <PanelField submit={handleSubmit} setLoader={setLoader} loader={loader} type='submit' value='Save'/>

@@ -31,7 +31,7 @@ export default function LandingProjects() {
             setActiveCategory(id);
             setPaginationActual(1);
             setProjects([]);
-            getProjects(id,paginationActual);
+            getProjects(id,1);
         };
         const [categories,setCategories] = useState([]);
         const [loadingCategories,setLoadingCategories] = useState(false);
@@ -138,7 +138,14 @@ export default function LandingProjects() {
                                                     <span className="code"><i className="lni lni-lock"></i> {translation.landing.projects.code_closed}</span>
                                                 }
                                             </div>
-                                            <span className="description">{project.content[translation.code].content}</span>
+                                            <span className="description">
+                                                {project.content[translation.code].content.split('\n').map((line, i) => (
+                                                    <span key={i}>
+                                                    {line}
+                                                    <br/>
+                                                    </span>
+                                                ))}<br/>
+                                            </span>
                                             <div className="link">
                                                 {project.content[translation.code].url_code &&
                                                     <a href={project.content[translation.code].url} target="_blank"><i className="lni lni-github"></i> {translation.landing.projects.check_code}</a>

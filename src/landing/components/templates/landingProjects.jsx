@@ -21,7 +21,7 @@ export default function LandingProjects() {
         const changePagination = (id) => {
             setPaginationActual(id);
             setProjects([]);
-            getProjects(activeCategory,paginationActual);
+            getProjects(activeCategory,id);
         };
     
     // Category
@@ -29,6 +29,7 @@ export default function LandingProjects() {
         const [activeCategory,setActiveCategory] = useState(null);
         const changeCategory = (id) => {
             setActiveCategory(id);
+            setPaginationActual(1);
             setProjects([]);
             getProjects(id,paginationActual);
         };
@@ -45,7 +46,7 @@ export default function LandingProjects() {
             setPaginationTotal(0);
             PublicApiGet({
                 setUrl: 'projects',
-                setParams: {category: category,page: page},
+                setParams: {category: category,page: page,limit: '5'},
                 setData: ()=>{},
                 setLoader: setLoadingProjects,
                 setError: setErrorProjects,

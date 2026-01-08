@@ -28,11 +28,11 @@ export default function PanelProjects() {
     const changePagination = (id) => {
         setPaginationActual(id);
         setData([]);
-        getData(paginationActual);
+        getData(id,15);
     };
 
-    const getData = (limit = 15) => {
-        PrivateApi.get('/projects?page='+paginationActual+'&limit='+limit).then((result)=>{
+    const getData = (page = 1,limit = 99) => {
+        PrivateApi.get('/projects?page='+page+'&limit='+limit).then((result)=>{
             let newData = [];
             result.data.response.map((item)=>{
                 let newItem = {};
@@ -74,6 +74,7 @@ export default function PanelProjects() {
     };
 
     const reorder = () => {
+        getData(1,900);
         setOrdering(!ordering);
     };
 

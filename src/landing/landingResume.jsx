@@ -1,11 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react';
+
 import './styles/style.scss';
 
 import { AppContext } from '../context/AppContext/AppContext';
 import AppContextProvider from '../context/AppContext/AppContextProvider';
 
 import LandingHome from './components/templates/landingHome';
-import LandingHomeAnimated from './components/templates/landingHomeAnimated';
+import LandingHomeAnimatedResume from './components/templates/landingHomeAnimatedResume';
 import LandingTop from './components/templates/landingTop';
 import LandingAboutResume from './components/templates/landingAboutResume';
 import LandingRoadmap from './components/templates/landingRoadmap';
@@ -22,7 +23,7 @@ export default function LandingResume() {
     return(
         <>  
             <AppContextProvider>
-                <LandingHomeAnimated/>
+                <LandingHomeAnimatedResume/>
                 <LandingAboutResume/>
                 <LandingExperienceResume/>
                 <LandingNumbers/>

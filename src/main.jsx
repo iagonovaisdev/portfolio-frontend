@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
 import Landing from './landing/landing';
+import LandingResume from './landing/landingResume';
 import Blank from './landing/blank';
 import Panel from './panel/panel';
 import PanelLogin from './panel/panelLogin';
@@ -49,6 +50,7 @@ import PanelHomeComponent from './panel/pages/home/panelHomeComponent';
 const router = createBrowserRouter([
   { 'path':'/', 'element': <Blank/> },
   { 'path':'/beta', 'element': <Landing/> },
+  { 'path':'/resume', 'element': <LandingResume/> },
   { 'path':'login', 'element': <PanelLogin/> },
   { 
     'path':'/control', 

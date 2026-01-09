@@ -769,6 +769,10 @@
             flex-direction: row-reverse;
             }
 
+            .straight {
+            flex-direction: row !important;
+            }
+
             .col-md-6 {
             margin: 0;
             padding: 0;

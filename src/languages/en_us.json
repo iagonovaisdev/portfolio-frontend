@@ -39,6 +39,7 @@
                 {"slug":"portuguese","name":"Portuguese","text":""},
                 {"slug":"english","name":"English","text":""}
             ],
+            "titlecontact":"Contact",
             "contact":[
                 {"name":"E-mail","icon":"lni lni-envelope","text":"iagonovaisdev@gmail.com"}
             ],

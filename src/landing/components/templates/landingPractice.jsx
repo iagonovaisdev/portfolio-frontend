@@ -77,7 +77,7 @@ export default function LandingPractice() {
                     </div>
                     {practice.cover && <div className="col-md-6">
                         <div className="practice-box">
-                            <iframe src={practice.cover}></iframe>
+                            <iframe src={practice.cover} allowfullscreen></iframe>
                         </div>
                     </div>}
                 </div>

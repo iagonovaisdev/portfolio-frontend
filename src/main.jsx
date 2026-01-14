@@ -48,7 +48,7 @@ import PanelPractice from './panel/pages/practice/panelPractice';
 import PanelHomeComponent from './panel/pages/home/panelHomeComponent';
 
 const router = createBrowserRouter([
-  { 'path':'/', 'element': <Blank/> },
+  { 'path':'/', 'element': <Landing/> },
   { 'path':'/beta', 'element': <Landing/> },
   { 'path':'/resume', 'element': <LandingResume/> },
   { 'path':'login', 'element': <PanelLogin/> },
